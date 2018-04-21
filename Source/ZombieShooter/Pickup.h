@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/Actor.h"
+#include "Components/SphereComponent.h"
 #include "Pickup.generated.h"
 
 UCLASS()

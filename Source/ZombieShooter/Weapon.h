@@ -4,6 +4,7 @@
 
 #include "Projectile.h"
 #include "GameFramework/Actor.h"
+#include "Components/ArrowComponent.h"
 #include "Weapon.generated.h"
 
 UCLASS()

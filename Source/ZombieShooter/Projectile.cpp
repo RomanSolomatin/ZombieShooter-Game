@@ -3,6 +3,7 @@
 #include "Projectile.h"
 #include "ZombieShooter.h"
 #include "CharacterDamageHandler.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 AProjectile::AProjectile()

@@ -2,6 +2,7 @@
 
 #include "Pickup.h"
 #include "ZombieShooter.h"
+#include "Components/StaticMeshComponent.h"
 
 
 // Sets default values

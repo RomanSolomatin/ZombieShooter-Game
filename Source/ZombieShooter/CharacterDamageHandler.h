@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "UObject/Interface.h"
 #include "CharacterDamageHandler.generated.h"
 
 UINTERFACE(Blueprintable)

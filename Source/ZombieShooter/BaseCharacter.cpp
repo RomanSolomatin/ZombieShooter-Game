@@ -2,6 +2,9 @@
 
 #include "BaseCharacter.h"
 #include "ZombieShooter.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "TimerManager.h"
 
 
 // Sets default values

@@ -3,6 +3,7 @@
 #include "Weapon.h"
 #include "ZombieShooter.h"
 #include "Projectile.h"
+#include "Components/SkeletalMeshComponent.h"
 
 
 // Sets default values

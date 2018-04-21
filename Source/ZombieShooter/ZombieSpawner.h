@@ -4,6 +4,7 @@
 
 #include "GameFramework/Actor.h"
 #include "Runtime/Engine/Classes/Kismet/KismetMathLibrary.h"
+#include "Components/BoxComponent.h"
 #include "ZombieSpawner.generated.h"
 
 UCLASS()
