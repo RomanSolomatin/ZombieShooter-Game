@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class ZombieShooter : ModuleRules
 {
-	public ZombieShooter(TargetInfo Target)
+	public ZombieShooter(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG" });
 

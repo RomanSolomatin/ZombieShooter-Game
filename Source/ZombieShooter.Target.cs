@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class ZombieShooterTarget : TargetRules
 {
-	public ZombieShooterTarget(TargetInfo Target)
+	public ZombieShooterTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 	}
