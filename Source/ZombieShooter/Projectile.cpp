@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "ZombieShooter.h"
 #include "Projectile.h"
+#include "ZombieShooter.h"
 #include "CharacterDamageHandler.h"
 
 // Sets default values
