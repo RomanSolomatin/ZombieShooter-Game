@@ -8,5 +8,10 @@ public class ZombieShooterEditorTarget : TargetRules
 	public ZombieShooterEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
+
+        ExtraModuleNames.Add("ZombieShooter");
+
+        bUseUnityBuild = false;
+        bUsePCHFiles = false;
 	}
 }
