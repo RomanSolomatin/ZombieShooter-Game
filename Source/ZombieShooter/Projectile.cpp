@@ -44,7 +44,7 @@ void AProjectile::Tick( float DeltaTime )
 
 // Called when project overlap other actor
 UFUNCTION()
-void AProjectile::OnProjectileOverlapBegin(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void AProjectile::OnProjectileOverlapBegin(class UPrimitiveComponent* XComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor != NULL || OtherComp != NULL)
 	{

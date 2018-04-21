@@ -46,5 +46,5 @@ public:
 	FComponentBeginOverlapSignature OnComponentBeginOverlap;
 
 	UFUNCTION()
-	void OnProjectileOverlapBegin(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	void OnProjectileOverlapBegin(class UPrimitiveComponent* XComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 };

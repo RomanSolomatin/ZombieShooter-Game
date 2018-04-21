@@ -38,10 +38,10 @@ void ABaseCharacter::BeginPlay()
 		const FVector TempSpawnLocation = GetActorLocation();
 
 		GunBlueprintInstanceThirdPerson = GetWorld()->SpawnActor(GunBlueprintClass, &TempSpawnLocation);
-		GunBlueprintInstanceThirdPerson->AttachRootComponentTo(GetMesh(), TEXT("Gun_socket"), EAttachLocation::SnapToTarget);
+		GunBlueprintInstanceThirdPerson->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, TEXT("Gun_socket"));
 		
 		GunBlueprintInstanceFirstPerson = GetWorld()->SpawnActor(GunBlueprintClass, &TempSpawnLocation);
-		GunBlueprintInstanceFirstPerson->AttachRootComponentTo(MeshFirstPerson, TEXT("Gun_socket_first_person"), EAttachLocation::SnapToTarget);
+		GunBlueprintInstanceFirstPerson->AttachToComponent(MeshFirstPerson, FAttachmentTransformRules::SnapToTargetIncludingScale, TEXT("Gun_socket_first_person"));
 
 		MeshFirstPerson->SetVisibility(false, true);
 
