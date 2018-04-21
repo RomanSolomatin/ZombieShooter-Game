@@ -2,6 +2,6 @@
 
 #pragma once
 
-#include "Engine.h"
+#include "CoreMinimal.h"
 #include "Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h"
 
